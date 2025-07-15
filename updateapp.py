@@ -99,10 +99,10 @@ def run_app():
                 st.info("Suggestion: Use stored battery power to meet the deficit.")
             else:
                 st.error("Suggestion: Use backup power or reduce appliance load.")
-        #recs = generate_recommendations(prediction, current_usage, battery_capacity)
+        recs = generate_recommendations(prediction, current_usage, battery_capacity)
         #st.subheader("🔎 Smart Energy Tips")
-        #for rec in recs:
-            #st.write(rec)
+        for rec in recs:
+            st.write(rec)
 
 def generate_recommendations(prediction, current_usage, battery_capacity):
     energy_deficit = prediction - current_usage
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     # Train model only once
     train_model()
     run_app()
-    generate_recommendations()
+
 
 
 
