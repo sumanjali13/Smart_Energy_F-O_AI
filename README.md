@@ -19,3 +19,18 @@ Streamlit: for frontend dashboard
 OpenWeatherMap API: real-time weather data
 Joblib: model persistence
 
+🌍 Future Enhancements
+🔌 Integration with IoT sensors and smart inverters
+📊 Power demand forecasting alongside generation
+🧠 AutoML or LSTM-based forecasting
+🌐 Multi-region and smart city expansion
+🔋 Load shifting and real-time control
+
+🤝 Contribution
+Feel free to fork, raise issues, or suggest new features.
+We’re building towards a sustainable and AI-powered energy future — and you can be part of it!
+
+🔗 Connect
+Developed with ❤️ by Kuruba Sumanjali
+📫 k.sumanjali17@gmail.com
+
